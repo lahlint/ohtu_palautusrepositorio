@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "viikko2"
+version = "0.1.0"
+description = ""
+authors = ["Lahja Lintumäki <lahja.lintumaki@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+flask = "^3.0.0"
+pytest = "^7.4.3"
+cowsay = "^6.1"
+toml-file = "^1.0.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
